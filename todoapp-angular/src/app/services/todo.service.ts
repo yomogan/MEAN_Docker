@@ -10,7 +10,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class TodoService {
 
-  api_url = 'http://localhost:3000';
+  //api_url = 'http://localhost:3000';
+  api_url = 'http://192.168.99.100:3000';
   todoUrl = `${this.api_url}/api/todos`;
 
   constructor(
